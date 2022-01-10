@@ -4,7 +4,7 @@ const arr = ["Egor", "David", "Zack", "Alex", "Job", "Darell"]
 arr.sort()
 
 test("Find index of the last element in array, equals = 5",  () => {
-    expect(binarySearch(arr, "Zack")).toBe(5)
+    expect(binarySearch(arr, "Zack")).toBe(arr.length - 1)
 })
 
 test("Find index of the first element in array, equals = 0",  () => {
