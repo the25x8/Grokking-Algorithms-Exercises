@@ -1,0 +1,15 @@
+{
+  "name": "Grokking-Algorithms-Exercises",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/the25x8/Grokking-Algorithms-Exercises.git",
+  "author": "25to8 <kocherginji@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
