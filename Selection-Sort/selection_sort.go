@@ -1,6 +1,6 @@
 package Selection_Sort
 
-// Difficulty: log(x^2)
+// Difficulty: O(x^2)
 func SelectionSortAsc(arr []int) {
 	var ln = len(arr)
 	for i := 0; i < ln; i++ {

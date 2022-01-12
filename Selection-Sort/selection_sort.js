@@ -11,7 +11,7 @@ function findSmallest(array) {
     return minIdx
 }
 
-// Difficulty: log(x^2)
+// Difficulty: O(x^2)
 function selectionSortAsc(array) {
     const len = array.length
     const sortedArr = []
