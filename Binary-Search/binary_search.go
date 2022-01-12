@@ -1,6 +1,9 @@
 package Binary_Search
 
 func BinarySearchStr(list []string, value string) int {
+	// We skip it this time
+	// return sort.SearchStrings(list, value)
+
 	low := 0
 	high := len(list) - 1
 
