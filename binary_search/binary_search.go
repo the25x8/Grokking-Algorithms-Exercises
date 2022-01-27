@@ -1,6 +1,6 @@
-package Binary_Search
+package binary_search
 
-// Difficulty: O(log n)
+// Difficulty: O(log(n))
 func BinarySearchStr(list []string, value string) int {
 	// We skip it this time
 	// return sort.SearchStrings(list, value)

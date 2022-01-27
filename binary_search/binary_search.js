@@ -1,4 +1,4 @@
-// Difficulty: O(log n)
+// Difficulty: O(log(n))
 function binarySearch(list, value) {
     let low = 0
     let high = list.length - 1

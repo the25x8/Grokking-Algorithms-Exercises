@@ -1,4 +1,4 @@
-package Binary_Search
+package binary_search
 
 import (
 	"sort"

@@ -1,6 +1,6 @@
-package Selection_Sort
+package selection_sort
 
-// Difficulty: O(x^2)
+// Difficulty: O(n*2)
 func SelectionSortAsc(arr []int) {
 	var ln = len(arr)
 	for i := 0; i < ln; i++ {
@@ -10,6 +10,7 @@ func SelectionSortAsc(arr []int) {
 				minIdx = j
 			}
 		}
+
 		arr[i], arr[minIdx] = arr[minIdx], arr[i]
 	}
 }

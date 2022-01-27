@@ -1,4 +1,4 @@
-package Selection_Sort
+package selection_sort
 
 import (
 	"testing"
